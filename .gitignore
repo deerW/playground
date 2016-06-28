@@ -2,5 +2,4 @@
 
 .DS_Store
 .idea
-webpack/Demo3/node_modules
-webpack/Demo4/node_modules
+webpack/Demo*/node_modules
