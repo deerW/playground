@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello, React!</title>
+  <script src="//cdn.bootcss.com/react/15.2.0/react.min.js"></script>
+  <script src="//cdn.bootcss.com/react/15.2.0/react-dom.min.js"></script>
+</head>
+<body>
+<div class="container"></div>
+</body>
+
+<script type="text/javascript">
+  var App = React.createClass({
+    render: function () {
+      return React.createElement('h1', null, 'Hello, React!');
+    }
+  });
+
+  var options = {};
+
+  var element = React.createElement(App, options);
+  ReactDOM.render(element, document.querySelector('.container'));
+</script>
+
+</html>
